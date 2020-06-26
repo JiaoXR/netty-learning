@@ -3,7 +3,7 @@
 ## 1. 效果演示
 
 启动自定义Tomcat后，在浏览器端请求 localhost:8888，得到响应，示例效果如下：
-
+![](https://github.com/JiaoXR/netty-learning/blob/master/pics/netty_http_request.png)
 
 ## 2. 要点
 

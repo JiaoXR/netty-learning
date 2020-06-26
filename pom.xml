@@ -12,6 +12,7 @@
     <modules>
         <module>web-container</module>
         <module>hello-netty</module>
+        <module>heartbeat</module>
     </modules>
 
     <properties>
