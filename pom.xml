@@ -13,6 +13,10 @@
         <module>web-container</module>
         <module>hello-netty</module>
         <module>heartbeat</module>
+        <module>rpc-server</module>
+        <module>rpc-api</module>
+        <module>common</module>
+        <module>rpc-client</module>
     </modules>
 
     <properties>
