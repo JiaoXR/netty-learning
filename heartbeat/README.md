@@ -17,7 +17,7 @@
     - userEventTriggered
     - exceptionCaught
 
-### 客户度
+### 客户端
 
 - ChannelInboundHandlerAdapter
     - channelActive
