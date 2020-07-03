@@ -17,6 +17,9 @@
         <module>rpc-api</module>
         <module>common</module>
         <module>rpc-client</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
+        <module>dubbo-api</module>
     </modules>
 
     <properties>
@@ -42,6 +45,13 @@
             <artifactId>lombok</artifactId>
             <version>1.18.12</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

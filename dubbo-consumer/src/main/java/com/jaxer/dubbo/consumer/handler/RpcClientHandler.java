@@ -1,4 +1,4 @@
-package com.jaxer.rpc.client.handler;
+package com.jaxer.dubbo.consumer.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
