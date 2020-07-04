@@ -1,6 +1,6 @@
 package com.jaxer.beat.server;
 
-import com.jaxer.CommonConstant;
+import com.jaxer.common.CommonConstant;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

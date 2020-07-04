@@ -1,6 +1,6 @@
 package com.jaxer.beat.client;
 
-import com.jaxer.CommonConstant;
+import com.jaxer.common.CommonConstant;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
@@ -44,6 +44,8 @@ public class HeartbeatClientHandler extends ChannelInboundHandlerAdapter {
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         ctx.channel().eventLoop().schedule(() -> {
             try {
+                scheduledFuture.removeListener(listener);
+
                 System.out.println(LocalDateTime.now() + "==> reconnecting...");
                 bootstrap.connect(CommonConstant.LOCAL_HOST_IP, CommonConstant.NETTY_PORT).sync();
             } catch (InterruptedException e) {
