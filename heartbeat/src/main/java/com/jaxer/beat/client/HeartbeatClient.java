@@ -1,6 +1,6 @@
 package com.jaxer.beat.client;
 
-import com.jaxer.common.CommonConstant;
+import com.jaxer.common.constant.CommonConstant;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.nio.NioEventLoopGroup;

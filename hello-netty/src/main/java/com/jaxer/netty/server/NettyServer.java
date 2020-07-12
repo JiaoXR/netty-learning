@@ -1,6 +1,6 @@
 package com.jaxer.netty.server;
 
-import com.jaxer.common.CommonConstant;
+import com.jaxer.common.constant.CommonConstant;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInitializer;

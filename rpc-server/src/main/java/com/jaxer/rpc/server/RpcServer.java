@@ -1,6 +1,6 @@
 package com.jaxer.rpc.server;
 
-import com.jaxer.common.CommonConstant;
+import com.jaxer.common.constant.CommonConstant;
 import com.jaxer.rpc.handler.RpcServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

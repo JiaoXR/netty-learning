@@ -1,6 +1,6 @@
 package com.jaxer.dubbo.provider.server;
 
-import com.jaxer.common.CommonConstant;
+import com.jaxer.common.constant.CommonConstant;
 import com.jaxer.dubbo.provider.handler.DubboProviderHandler;
 import com.jaxer.dubbo.provider.registey.RegistryCenter;
 import io.netty.bootstrap.ServerBootstrap;

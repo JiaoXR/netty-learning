@@ -1,4 +1,4 @@
-package com.jaxer.common;
+package com.jaxer.common.constant;
 
 /**
  * 一些常量

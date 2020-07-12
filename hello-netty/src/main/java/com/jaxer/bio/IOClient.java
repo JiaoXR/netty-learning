@@ -1,6 +1,6 @@
 package com.jaxer.bio;
 
-import com.jaxer.common.CommonConstant;
+import com.jaxer.common.constant.CommonConstant;
 
 import java.net.Socket;
 import java.time.LocalDateTime;

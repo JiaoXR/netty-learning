@@ -21,6 +21,7 @@
         <module>dubbo-consumer</module>
         <module>dubbo-api</module>
         <module>nio-jdk</module>
+        <module>chat</module>
     </modules>
 
     <properties>

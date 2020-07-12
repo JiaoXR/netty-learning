@@ -1,6 +1,6 @@
 package com.jaxer.rpc.client.proxy;
 
-import com.jaxer.common.CommonConstant;
+import com.jaxer.common.constant.CommonConstant;
 import com.jaxer.rpc.api.invoke.InvokeMessage;
 import com.jaxer.rpc.client.handler.RpcClientHandler;
 import io.netty.bootstrap.Bootstrap;
